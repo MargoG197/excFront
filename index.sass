@@ -1,0 +1,533 @@
+html
+    margin: 0
+    padding: 0
+.promo
+    max-height: 900px
+    font-family: "Open Sans", serif
+    .nav
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 100px
+        h1
+            font-size: 73px
+            line-height: 100px
+            font-weight: 700
+        &-item
+            display: flex
+            justify-content: space-between
+            align-items: center
+            margin: 0
+            height: 42px
+            width: 814px
+            li
+                list-style-type: none
+            &-link
+                text-decoration: none
+                font-size: 20px
+                line-height: 25px
+                font-weight: 400
+                color: #0B0A12
+            .exit
+                display: block
+                background-image: url('../img/promo/exit.png')
+                background-repeat: no-repeat
+                background-position: center
+                background-color: #3C4E77 
+                border-radius: 10px
+                height: 38px
+                width: 72px
+    .slider
+        &-item
+            position: relative
+            width: 1320px
+            height: 620px
+            border-radius: 10px
+            padding: 50px 50px 50px 65px 
+            font-family: "Nunito Sans", serif
+            h2
+                width: 811px
+                height: 213px
+                color: #FFFFFF
+                font-size: 58px
+            img
+                width: 750px
+                height: 760px
+                position: absolute
+                top: -55px
+                right: -70px
+            button
+                display: block
+                width: 340px
+                height: 50px
+                background-color: #3C4E77 
+                text-align: center
+                border-radius: 10px
+                margin: 0 auto
+                margin-top: 250px
+                font-size: 28px
+                line-height: 28px
+                color: #FFFFFF
+            .title
+                margin-top: 50px
+                margin-bottom: 20px
+                font-size: 30px
+                font-weight: 400
+                color: #FFFFFF
+        .bus-img
+            background-image: url('../img/promo/bus.png')
+            background-position: center
+        .children-img
+            background-color: #3C4E77 
+            button
+                background-color: #E46324
+                margin: 80px 0 0 135px
+        .stable-img
+            background-image: url('../img/promo/stable.png')
+            background-position: center
+            .title
+                margin-top: 100px
+            button
+                margin-top: 70px
+    
+.variety
+    margin-top: 100px
+    h3
+        text-align: center
+        font-size: 36px
+        font-family: "Nunito Sans", serif
+        font-weight: 700  
+        margin: 100px 0 50px 0
+        color: #0B0A12
+        font-weight: 700
+    .category
+        display: flex
+        justify-content: space-between
+        &-item
+            position: relative
+            width: 405px
+            height: 211px
+            img
+                width: 100%
+                height: 100%
+            &-title
+                position: absolute
+                top: 0
+                left: 0
+                right: 0
+                bottom: 0
+                display: flex
+                justify-content: center
+                align-items: center
+                font-size: 25px
+                color: #FFFFFF
+                font-family: "Open Sans", serif
+    .types
+        margin-top: 50px
+        display: flex
+        justify-content: space-between
+        &-item
+            position: relative
+            width: 627px
+            height: 268px
+            img
+                width: 100%
+                height: 100%
+            .anotation
+                position: absolute
+                margin: 0 0 15px 20px 
+                bottom: 0 
+                display: flex
+                flex-direction: column
+                align-items: center     
+                font-family: "Open Sans", serif          
+                img
+                    width: 80px
+                    height: 80px
+                &-range
+                    color: #6A6C6E
+                    font-size: 20px
+                    font-weight: 400
+                    
+                &-header
+                    color: #0B0A12
+                    font-size: 25px
+                    font-weight: 400
+    button 
+        display: block
+        width: 340px
+        height: 64px
+        background-color: #3C4E77 
+        text-align: center
+        border-radius: 10px
+        margin: 0 auto
+        margin-top: 62px
+        font-size: 28px
+        line-height: 28px
+        font-weight: 400
+        color: #FFFFFF
+        pointer-events: none
+        cursor: pointer
+.advantages
+    margin-top: 100px
+    &-wrapper
+        width: 100%
+        min-height: 300px
+        display: flex
+        justify-content: space-around
+        align-items: center
+        border-radius: 10px
+        background-color: #5C6C90
+        opacity: 0.78
+    &-item
+        width: 300px
+        height: 200px
+        display: flex
+        flex-direction: column
+        align-items: center
+        text-align: center
+        &-title
+            margin-top: 8px
+            color: #FFFFFF 
+            font-size: 36px
+            font-family: "Nunito Sans", serif  
+            font-weight: 700
+        &-subtitle
+            color: #FFFFFF
+            font-size: 25px
+            font-family: "Open Sans", serif
+            font-weight: 300
+.reviews
+    margin-top: 110px
+    min-height: 500px
+    h3
+        text-align: center
+        font-size: 36px
+        font-family: "Nunito Sans", serif
+        font-weight: 700  
+        margin: 100px 0 50px 0
+        color: #0B0A12
+        font-weight: 700
+    &-slider
+        width: 100%
+        .draggable
+            padding: 0
+        &-item
+            margin-right: 70px
+            max-width: 525px
+            max-height: 170px
+            .review
+                display: flex
+                flex-direction: row
+                &-icon
+                    width: 100px
+                    height: 100px
+                    margin-right: 14px
+                &-body
+                    display: flex
+                    flex-direction: column
+                    &-header
+                        display: flex
+                        flex-direction: row
+                        align-items: center
+                        &-name
+                            font-size: 30px
+                            color: #0B0A12
+                            font-family: "Nunito Sans", serif
+                            font-weight: 700
+                            margin-right: 10px
+                        &-estimate
+                            width: 124px
+                            height: 25px
+                    &-text
+                        font-size: 21px
+                        color: #0B0A12
+                        font-family: "Open Sans", serif
+                        font-weight: 300
+    .reviews-arrows
+        margin: 0 auto
+        margin-top: 50px
+        border: 1px solid #5C6C90
+        border-radius: 5px
+        display: flex
+        justify-content: space-around
+        align-items: center
+        width: 186px
+        height: 40px
+.steps
+    .wrapper
+        width: 100%
+        min-height: 1350px
+        background-color: rgba(92, 108, 144, .2)
+        border-radius: 10px
+        padding: 50px 25px 50px 25px
+        h3
+            text-align: center
+            font-size: 36px
+            font-family: "Nunito Sans", serif
+            font-weight: 700  
+            color: #0B0A12
+            font-weight: 700
+        .title
+            text-align: center
+            font-size: 25px
+            font-family: "Open Sans", serif
+            font-weight: 300
+    &-body
+        display: flex
+        justify-content: space-around
+        align-items: center
+        width: 100%
+        height: 300px     
+        border-radius: 10px
+        border: 1px solid #5C6C90
+        margin-top: 50px
+        &-item
+            width: 350px
+            height: 220px
+            display: flex
+            flex-direction: column
+            &-subtitle
+                text-align: center
+                font-size: 25px
+                font-family: "Open Sans", serif
+                font-weight: 400
+    .step-title
+        margin-top: 100px
+    .steps-reg-wrapper
+        width: 800px
+        height: 500px
+        margin: 0 auto
+        margin-top: 28px
+        display: flex
+        justify-content: space-between
+        h4
+            text-align: center
+            font-size: 23px
+            font-family: "Open Sans", serif
+            font-weight: 400
+            text-align: right
+        .left
+            width: 340px
+            display: flex
+            justify-content: space-between
+            flex-direction: column
+        .centre
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            img
+                width: 85px
+                height: 85px
+            .separator
+                width: 110px
+                height: 1px
+                background: #0B0A12
+                rotate: 90deg
+
+        .right
+            width: 340px
+            display: flex
+            align-items: center
+            h4
+                text-align: left
+    &-button
+        display: block
+        width: 340px
+        height: 64px
+        background-color: #3C4E77 
+        text-align: center
+        border-radius: 10px
+        margin: 0 auto
+        margin-top: 80px
+        font-size: 28px
+        line-height: 28px
+        font-weight: 400
+        color: #FFFFFF
+        pointer-events: none
+        cursor: pointer
+
+.faq
+    width: 1170px
+    margin: 0 auto
+    h3
+        text-align: center
+        font-size: 36px
+        font-family: "Nunito Sans", serif
+        font-weight: 700  
+        color: #0B0A12
+        font-weight: 700
+        margin-top: 100px
+    &-body
+        width: 965px
+        margin: 0 auto
+    &-wrapper
+        width: 100%
+        display: flex
+        flex-direction: column
+        min-height: 100%
+        border: 1px solid #5C6C90
+        border-radius: 10px
+        margin-top: 20px
+        padding: 40px 100px
+        details
+            margin-bottom: 10px
+            padding: 20px 0
+            summary 
+                display: flex
+                cursor: pointer
+                font-weight: bold         
+                list-style: none
+                position: relative
+                text-align: center
+                font-size: 24px
+                font-family: "Open Sans", serif
+                font-weight: 400
+                margin-left: 90px
+                &::after
+                    width: 50px
+                    height: 50px
+                    content: '+'
+                    font-weight: 400
+                    display: inline-block
+                    position: absolute
+                    left: -80px
+                    font-size: 32px
+                    border: 1px solid #000
+                    border-radius: 50%
+                    margin-top: -7px
+
+            p
+                margin: 20px 0 0 90px
+        details[open] summary
+            &::after
+                rotate: 45deg
+                right: 7.5px
+.useful
+    h3
+       text-align: center
+        font-size: 36px
+        font-family: "Nunito Sans", serif
+        font-weight: 700  
+        color: #0B0A12
+        margin-top: 100px
+    h4
+        text-align: center
+        font-size: 23px
+        font-family: "Open Sans", serif
+        font-weight: 400
+        text-align: center
+    .logo
+        display: block
+        margin: 0 auto
+        margin-top: 50px
+    &-wrapper
+        display: flex
+        justify-content: space-between
+        img
+            cursor: pointer
+            width: 400px
+            height: 570px
+
+footer
+    margin-top: 100px
+    width: 100%
+    min-height: 550px
+    padding: 50px 0
+    background-color: #8793AE
+    .wrapper
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        height: 450px
+        .body
+            width: 1075px
+            height: 150px
+            display: flex
+            justify-content: space-between
+            &-item
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                text-align: left
+                font-size: 17px
+                line-height: 17px
+                font-family: "Nunito Sans", serif
+                font-weight: 800  
+                color: #FFFFFF
+                &-title
+                    font-size: 20px
+                    line-height: 20px
+                    font-family: "Open Sans", serif
+                    font-weight: 400 
+        .item
+            display: flex
+            justify-content: space-between
+            .news
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                align-items: start
+                &-title
+                    text-align: left
+                    font-size: 30px
+                    line-height: 32px
+                    font-family: "Nunito Sans", serif
+                    margin-bottom: 20px
+                    color: #FFFFFF
+                input
+                    width: 210px
+                    height: 50px
+                    margin-bottom: 20px
+                    border-radius: 10px
+                    border: none
+                    &::placeholder
+                        padding-left: 10px
+                        font-size: 20px
+                        font-family: "Open Sans", serif
+                        font-weight: 200 
+                button 
+                    width: 210px
+                    height: 50px
+                    border-radius: 10px
+                    font-size: 28px
+                    font-family: "Nunito Sans", serif
+                    font-weight: 400px
+                    border: none
+                    color: #FFFFFF
+                    background-color: #122247
+            .contact
+                display: flex
+                justify-content: space-between
+                &-grafic
+                    display: flex
+                    flex-direction: column
+                    justify-content: space-between
+                    &-title
+                        text-align: left
+                        font-size: 30px
+                        line-height: 32px
+                        font-family: "Nunito Sans", serif
+                        margin-bottom: 20px
+                        color: #FFFFFF
+                    .contac-grafic-social
+                        width: 220px
+                        display: flex
+                        justify-content: space-between
+                    p
+                        color: #FFFFFF
+                        line-height: 20px
+                        font-size: 20px
+                        font-family: "Open Sans", serif
+                        font-weight: 200 
+                &-link
+                    margin-left: 60px
+                    margin-top: 58px
+                    color: #FFFFFF
+                    line-height: 20px
+                    font-size: 20px
+                    font-family: "Open Sans", serif
+                    font-weight: 600
+                    div
+                        margin-bottom: 20px 
